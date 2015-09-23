@@ -77,4 +77,3 @@ if __name__ == "__main__":
     ]
 
     app.run()
-    AwesomeStatusBarApp().run()
