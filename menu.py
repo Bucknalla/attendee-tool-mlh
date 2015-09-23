@@ -1,6 +1,6 @@
-import rumps
 import webbrowser
 import mlh
+import rumps
 
 @rumps.clicked('Attendees','Dietary Restrictions')
 def click_diet(self):
@@ -8,7 +8,7 @@ def click_diet(self):
     window.title = 'Dietary Restrictions'
     window.message = 'Information regarding dietary restrictions.'
     window.default_text = mlh.get_dietary_users()
-    window.icon = 'mlh.png'
+    window.icon = 'mlh-gs.png'
     window.run()
 
 @rumps.clicked('Attendees','Medical Needs')
@@ -17,7 +17,7 @@ def click_med(self):
     window.title = 'Medical Needs'
     window.message = 'Information regarding medical needs.'
     window.default_text = mlh.get_special_users()
-    window.icon = 'mlh.png'
+    window.icon = 'mlh-gs.png'
     window.run()
 
 @rumps.clicked('MLH','Website')
@@ -62,7 +62,7 @@ def click_search(self):
 
 
 if __name__ == "__main__":
-    app = rumps.App("MLH Organiser Tool",  icon='mlh.png')
+    app = rumps.App("MLH Organiser Tool",  icon='mlh-gs.png')
     app.menu = [
         'Search',
         {'Attendees':
