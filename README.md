@@ -4,6 +4,9 @@ A quick simple python tool built on RUMPS to enable hackathon organisers to quic
 
 This tool works using MLH's API (my.mlh.io) to query users and provide organiser support. It's an easy way to get important information about attendees. 
 
+![alt tag](https://raw.github.com/Bucknalla/MLHOrgainserTool/Master/mlhtool.png)
+
+
 ### Setup
 
 Edit the JSON file named 'credentials.json' with the client secret and client id generated at my.mlh.io.
